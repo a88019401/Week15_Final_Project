@@ -14,6 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a>Homework Page</a><br/>
+          我是祐豪，學號909410028<br/>
           這是我的作品頁面，我自主學習了兩款有趣的網頁，<br/>請大家點點看"COVID-19"和"Animation"吧！
         </h1>
         <div className={styles.grid}>
