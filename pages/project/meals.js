@@ -37,11 +37,11 @@ export default function meals() {
             <form id="submit" className={styles["flex-box"]}>
                 <input type="text" value={input} placeholder="Search for meals or keywords" className={styles.input} onChange={handleInput}/>
                 <button className={styles.btn__search} type="submit" onClick={handleSubmit}>
-                    <i class="styles.fas fa-search"></i>
+                    <i class="fas fa-search"></i>
                 </button>
                 </form>
                     <button className={styles.btn__random} id="random">
-                <i class="styles.fas fa-random"></i>
+                <i class="fas fa-random"></i>
             </button>
         </div>
         <div id="result-heading" className={styles.title__search}><h1>Search Results for ' {input} ' :</h1></div>
