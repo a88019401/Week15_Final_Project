@@ -13,7 +13,8 @@ export default function Home() {
       <Nav/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a>909410028 Homework Page</a>
+          Welcome to <a>Homework Page</a><br/>
+          這是我的作品頁面，我自主學習了兩款有趣的網頁，<br/>請大家點點看"COVID-19"和"Animation"吧！
         </h1>
         <div className={styles.grid}>
           <a href="./project" className={styles.card}>
@@ -21,7 +22,13 @@ export default function Home() {
           </a>
 
           <a href="./project/meals" className={styles.card}>
-            <h2>Meal Finder &rarr;</h2><p>Meal API</p>
+            <h2>Meal Finder &rarr;</h2><p>FindMeals</p>
+          </a>
+          <a href="https://covid19-website-omega.vercel.app/" className={styles.card}>
+            <h2>Meal Finder &rarr;</h2><p>Covid-19</p>
+          </a>
+          <a href="https://js-portfolio-framer-motion-909410028.vercel.app/" className={styles.card}>
+            <h2>Meal Finder &rarr;</h2><p>Animation</p>
           </a>
 
         </div>

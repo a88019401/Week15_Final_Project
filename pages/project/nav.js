@@ -18,7 +18,10 @@ export default function nav() {
                         <li className={styles.lastli}><a href="#"> W15</a></li>
                         </ul>
                     </li>
-                    <li><a href="#"> COVID-19</a></li>
+                    <li><a href="./project"> 7Cards</a></li>
+                    <li><a href="./project/meals"> FindMeals</a></li>
+                    <li><a href="https://covid19-website-omega.vercel.app/"> COVID-19</a></li>
+                    <li><a href="https://js-portfolio-framer-motion-909410028.vercel.app/"> Animation</a></li>
                     </ul>
                 </div>
             </nav>
