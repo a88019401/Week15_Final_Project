@@ -9,13 +9,13 @@ export default function Home() {
         <title>Create Next App</title>
         <meta name="description" content="909410028 Homework Page" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Nav/>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a>Homework Page</a><br/>
-          我是祐豪，學號909410028<br/>
-          這是我的作品頁面，我自主學習了兩款有趣的網頁，<br/>請大家點點看"COVID-19"和"Animation"吧！
+          我是祐豪 <a>學號909410028</a><br/>
+          這是我的作品頁面<br/>我自主學習了兩款有趣的網頁<br/>請大家點點看"COVID-19"和"Animation"吧！
         </h1>
         <div className={styles.grid}>
           <a href="./project" className={styles.card}>

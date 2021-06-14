@@ -9,7 +9,7 @@ export default function nav() {
                     <ul className={styles.menu}>
                     <li><a href="#"> 課堂實作</a>
                         <ul>
-                        <li><a href="#"> W07</a></li>
+                        <li className={styles.firstli}><a href="#"> W07</a></li>
                         <li><a href="#"> W08</a></li>
                         <li><a href="#"> W09</a></li>
                         <li><a href="#"> W11</a></li>
