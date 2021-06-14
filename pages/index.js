@@ -23,13 +23,13 @@ export default function Home() {
           </a>
 
           <a href="./project/meals" className={styles.card}>
-            <h2>Meal Finder &rarr;</h2><p>FindMeals</p>
+            <h2>Project &rarr;</h2><p>FindMeals</p>
           </a>
           <a href="https://covid19-website-omega.vercel.app/" className={styles.card}>
-            <h2>Meal Finder &rarr;</h2><p>Covid-19</p>
+            <h2>Self-Project &rarr;</h2><p>Covid-19</p>
           </a>
           <a href="https://js-portfolio-framer-motion-909410028.vercel.app/" className={styles.card}>
-            <h2>Meal Finder &rarr;</h2><p>Animation</p>
+            <h2>Self-Project &rarr;</h2><p>Animation</p>
           </a>
 
         </div>
