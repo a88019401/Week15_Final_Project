@@ -32,3 +32,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+本人於2020下學期所修的Javascript網頁設計的期中作品，
+會取名叫FinalHope是因為第一次佈署vercel，
+結果失敗好幾次，正想放棄時半夜爬起來重新再git一包 名為"FinalHope"。
+
+結果成功了 :)
+
+
