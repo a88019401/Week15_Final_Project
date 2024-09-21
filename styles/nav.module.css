@@ -1,77 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;900&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@500;700&display=swap');
 
 /* navbat 樣式*/
-.navbar{
+.navbar {
     background: rgb(3, 10, 10);
     display: flex;
     grid-area: nav;
     padding: 15px 0;
     font-family: 'Ubuntu', sans-serif;
-    border-radius: 10%;
-    width:auto;
+    width: 100%; /* 改為滿版 */
+    border-radius: 0; /* 移除圓角 */
+    position: fixed; /* 固定在畫面上方 */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* 保持在最上層 */
 }
-.navbar .width{
+
+.navbar .width {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%; /* 確保內部元素滿版 */
+    padding: 0 20px; /* 增加左右邊距 */
 }
-.navbar .logo a{
+
+.navbar .logo a {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
 }
-.navbar .menu li{
+
+.navbar .menu {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .menu li {
     list-style: none;
     display: inline-block;
-    background: rgb(3, 10, 10);
-    }
-.navbar .menu li a{
+    margin: 0 15px; /* 控制選單間距 */
+}
+
+.navbar .menu li a {
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 25px;
     transition: all 0.5s ease;
-}
-.navbar .menu li a:hover{
-    color: #fff;
-}
-.navbar .logo a span{
-    color: #fff;
-    transition: all 0.3s ease;
+    text-decoration: none; /* 移除底線 */
 }
 
-.navbar .menu li ul{
+.navbar .menu li a:hover {
+    color: #ddd; /* 改變懸停顏色 */
+}
+
+.navbar .menu li ul {
     position: absolute;
     top: 70px;
     opacity: 0;
     visibility: hidden;
     transition: top .3s;
     padding-top: 5px;
+    background: rgb(3, 10, 10); /* 確保下拉選單背景一致 */
 }
-.navbar .menu li:hover > ul{
+
+.navbar .menu li:hover > ul {
     top: 50px;
     opacity: 1;
     visibility: visible;
 }
-.navbar .menu li ul li{
+
+.navbar .menu li ul li {
     position: relative;
     margin: 0px;
     width: 100px;
-    float: none;
     display: list-item;
-    border-bottom: 1px solid rgba(#fff);
+    border-bottom: 1px solid #fff; /* 修正邊框顏色 */
 }
-.lastli{
-    
-    border-radius: 0 0 50% 50%;
+
+.navbar .menu li ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s ease;
 }
-.firstli{
-    border-radius: 50% 50% 0 0;
+
+.lastli {
+    border-radius: 0;
 }
-.navbar .menu li ul li a{
-color: #fff;
-font-size: 15px;
-font-weight: 500;
-margin-left: 25px;
-transition: all 0.5s ease;
+
+.firstli {
+    border-radius: 0;
 }
