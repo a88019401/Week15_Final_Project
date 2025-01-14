@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Nav from './project/nav'
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -10,7 +12,8 @@ export default function Home() {
       <meta name="description" content="909410028 Homework Page" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
+ {/* 導覽列 */}
+  <Nav />
     <header className={styles.header}>
       <h1>我是祐豪</h1>
       <p>學號 909410028 - 我的作品頁面</p>

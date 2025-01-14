@@ -54,27 +54,30 @@
   color: #ddd;
 }
 
+/* 子選單樣式 */
 .navbar .menu li ul {
   position: absolute;
-  top: 70px;
+  top: 100%; /* 確保子選單位於父選單的下方 */
+  left: 0;
   opacity: 0;
   visibility: hidden;
-  transition: top 0.3s ease, opacity 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
   background: rgb(3, 10, 10);
   padding: 5px 0;
   border-radius: 4px;
+  z-index: 1000; /* 確保子選單顯示在其他內容之上 */
 }
 
 .navbar .menu li:hover > ul {
-  top: 50px;
   opacity: 1;
   visibility: visible;
 }
 
+/* 子選單項目樣式 */
 .navbar .menu li ul li {
   margin: 0;
   padding: 8px 15px;
-  width: 120px;
+  min-width: 150px; /* 確保子選單寬度一致 */
   border-bottom: 1px solid #fff;
 }
 
@@ -88,6 +91,16 @@
   text-decoration: none;
 }
 
+.navbar .menu li ul li a:hover {
+  color: #ffcc00;
+}
+
+/* 增加互動區域 */
+.navbar .menu li {
+  padding-bottom: 10px; /* 增加父選單底部區域的點擊範圍 */
+}
+
+/* 第一個與最後一個選項圓角處理 */
 .firstli {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
