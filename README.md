@@ -1,3 +1,6 @@
+# 民國111年的javascript網頁實作
+當時學完了html、css、javascript在一般靜態網頁上的用法後，下學期的課居然是把html編進javascript裡，當時覺得很有趣。
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
